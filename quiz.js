@@ -11,7 +11,7 @@
 // 11. Does the contact form on About page submit an email to your prof email?
 
 // Answer to 1: Creates a random number
-const genNum = Math.floor(Math.random()* 10) +1;
-let guessCount = 0;
-console.log(genNum);
-
+function checkAnswer(){
+    const genNum = Math.floor(Math.random()* 10) +1;
+    console.log(genNum);
+}
