@@ -45,9 +45,10 @@ li a:visited{
 /* End of Navigation bar*/
 
 h1 , button{ 
-    color:lightcoral;
+    color:rgb(206, 51, 51);
     text-align:center;
     text-transform:uppercase;
+  
 }
 
 
@@ -67,7 +68,7 @@ h1 , button{
 
 /*Email address*/
 .email{
-    color:pink;
+    color:rgb(209, 57, 82);
 }
 
 /* Summary of SPY X Family*/
@@ -87,15 +88,26 @@ em{
 }
 
 title{
-    color: lightcoral;
+    color: rgb(126, 6, 6);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.card{
+    background-color: black;
+    opacity: 0.8;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 8px 8px 8px 8px;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 6px;
+}
 
 .questions-container{
         text-align: center;
-        color: orange;
-
+        color: rgb(172, 119, 21);
 }
 
 /* Sailor Moon gif*/

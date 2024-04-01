@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>SPY X FAMILY Intel Check</title>
     <!--Favicon-->
-    <a href="https://www.flaticon.com/free-icons/new-house" title="new house icons"></a> 
+    <link rel="icon" type="image/x-icon" href="C:\Users\danna\Desktop\Anime starter quiz\apartment.png">
      <!--Css page below-->
     <link rel="stylesheet" type="text/css" href="quiz.css"/>
-    <!--JS page below-->
-    <script type="text/javascript" src="quiz.js"></script>
+    <script src="quiz.js"></script>
+
   </head>
 
     <body>
@@ -23,37 +23,36 @@
 
     <!--Main Header-->
       <h1>Welcome Spy X Family Intel Check</h1>
-      <br>
-      <p> This is a number guessing game starring the world's cutest little spy, <strong>Anya Forger</strong>. </p>
       <!--Add wiki information here-->
   <br><br>
   <!--Start of quiz-->
-    <div class="questions-container">  
+  <div class="card">
+    <div class="questions-container"> 
         <h4>Are you a real spy? <br>
         Try to read Anya's mind! <br></h4>
-          <h5> If you get it right, you will receive the secret message. </h5>
-            <br>
             <!--Place for user to enter the number-->
-            <label>Choose a number between 1 & 10: 
+            <p>Choose a number between 1 & 10:</p>
             <br>
-            <input type="number" id="guess" placeholder="Choose a number"/>
-            </label>
-        <br><br>  
+            <input type="number" id="guessInput" placeholder="Choose a number" value="guessInput"/>
+        <br>
 
-        <p id="guessResults"> </p>
       <!--button for the game-->
-      <div class="button-container">
-      <br><br>
-      <button id="sendGuess" onclick="checkAnswer()">Submit</button>
-     <button id="resetGame">Reset</button>
+    <!--Submit button-->
+      <button type="submit" onclick="beginGame()" id="beginGame">Submit</button>
+    <!--Reset Button-->
+     <button type="button" onclick="resetGame()" id="resetGame">Reset</button>
+    <!--Result message-->
+     <p id="result"></p>
+  </div>
   </div>
   <br>
-`<!--Return to the top of the page-->
-  <button><a href="#top" class="return">Back to the beginning!</a></button>
-  </body>
-    
-  <footer>
+  <!-------JS Below----->
+  
+
+
+ 
   <!--copyright-->
+  <footer>
     <div class="copyright"> 
     <p><strong>&copy; 2024 Created by:  Dani Hoskins  <img src="Break image.png" alt="Sailor" class="sailor" > Email:<a class="email" href="mailto:hoskins.dannala@gmail.com">hoskins.dannala@gmail.com</a></strong></p>
     </div>
